@@ -1,0 +1,283 @@
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #F2F0FA;
+  min-height: 100dvh;
+  padding: 52px 20px 40px;
+  gap: 16px;
+  overflow-y: auto;
+  animation: page-enter 0.4s ease both;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.topBadge {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--color-brand);
+  background: var(--color-brand-soft);
+  padding: 5px 14px;
+  border-radius: var(--radius-full);
+}
+
+.mainTitle {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.wellnessBadge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-brand);
+  letter-spacing: 1px;
+}
+
+.wellnessDot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--color-brand);
+}
+
+/* ── Score circle ── */
+.scoreCircle {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.ringBg {
+  fill: none;
+  stroke: var(--color-brand-soft);
+  stroke-width: 10;
+}
+
+.ringFill {
+  fill: none;
+  stroke: var(--color-brand);
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dasharray 1s ease;
+}
+
+.scoreInner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  z-index: 1;
+}
+
+.scoreNum {
+  font-family: var(--font-display);
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1;
+}
+
+.scoreLabel {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  text-align: center;
+}
+
+/* ── Description ── */
+.desc {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  line-height: 1.7;
+  max-width: 320px;
+}
+
+/* ── Domains ── */
+.domains {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.domainCard {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.domainHeader {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.domainIcon {
+  font-size: 22px;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: var(--color-brand-soft);
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.domainInfo {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.domainName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.domainPct {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-brand);
+}
+
+.bar {
+  height: 6px;
+  background: var(--color-brand-soft);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
+.barFill {
+  height: 100%;
+  border-radius: var(--radius-full);
+  transition: width 0.8s ease;
+}
+
+/* ── Path forward ── */
+.pathSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.pathTitle {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.rec {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.recNum {
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+  font-weight: 700;
+  font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.recName {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.recSub {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* ── Actions ── */
+.actions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bookBtn {
+  width: 100%;
+  padding: 14px;
+  background: var(--color-brand);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-full);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--font-body);
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  transition: background var(--transition-fast);
+}
+
+.bookBtn:hover { background: var(--color-brand-hover); }
+
+.shareBtn {
+  width: 100%;
+  padding: 13px;
+  background: transparent;
+  color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.shareBtn:hover { background: var(--color-brand-soft); }
+
+.backBtn {
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  font-family: var(--font-body);
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+}

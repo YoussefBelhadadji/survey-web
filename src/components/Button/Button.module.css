@@ -1,0 +1,45 @@
+/* ─────────────────────────────────────────
+   components/Button/Button.module.css
+   ───────────────────────────────────────── */
+
+.button {
+  width: 100%;
+  padding: 18px;
+  border: none;
+  border-radius: var(--radius-full);
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition:
+    transform var(--transition-fast),
+    box-shadow var(--transition-fast),
+    background var(--transition-fast);
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+/* Variants */
+.primary {
+  background: var(--color-brand);
+  color: #fff;
+}
+
+.primary:hover {
+  background: var(--color-brand-hover);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.ghost {
+  background: rgba(255, 255, 255, 0.55);
+  color: var(--color-brand);
+  backdrop-filter: blur(10px);
+}
+
+.ghost:hover {
+  background: rgba(255, 255, 255, 0.85);
+}

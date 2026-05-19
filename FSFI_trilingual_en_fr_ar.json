@@ -1,0 +1,652 @@
+{
+  "source_file": "FSFI_test.pdf",
+  "title": {
+    "en": "Female Sexual Function Index (FSFI)",
+    "fr": "Indice de la fonction sexuelle féminine (FSFI)",
+    "ar": "مؤشر الوظيفة الجنسية الأنثوية (FSFI)"
+  },
+  "time_frame": {
+    "en": "Over the past 4 weeks",
+    "fr": "Au cours des 4 dernières semaines",
+    "ar": "خلال الأسابيع الأربعة الماضية"
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "domain": "desire",
+      "en": "Over the past 4 weeks, how often did you feel sexual desire or interest?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous ressenti du désir ou de l’intérêt sexuel ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة شعرتِ برغبة أو اهتمام جنسي؟",
+      "options_ref": "frequency_1_to_5_reversed_no_zero"
+    },
+    {
+      "id": "Q2",
+      "domain": "desire",
+      "en": "Over the past 4 weeks, how would you rate your level (degree) of sexual desire or interest?",
+      "fr": "Au cours des 4 dernières semaines, comment évalueriez-vous votre niveau (degré) de désir ou d’intérêt sexuel ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كيف تقيّمين مستوى أو درجة رغبتكِ أو اهتمامكِ الجنسي؟",
+      "options_ref": "level_1_to_5_reversed_no_zero"
+    },
+    {
+      "id": "Q3",
+      "domain": "arousal",
+      "en": "Over the past 4 weeks, how often did you feel sexually aroused (“turned on”) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence vous êtes-vous sentie sexuellement excitée pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة شعرتِ بالإثارة الجنسية أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "frequency_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q4",
+      "domain": "arousal",
+      "en": "Over the past 4 weeks, how would you rate your level of sexual arousal (“turn on”) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, comment évalueriez-vous votre niveau d’excitation sexuelle pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كيف تقيّمين مستوى الإثارة الجنسية لديكِ أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "level_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q5",
+      "domain": "arousal",
+      "en": "Over the past 4 weeks, how confident were you about becoming sexually aroused during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, dans quelle mesure étiez-vous confiante quant à votre capacité à être sexuellement excitée pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى ثقتكِ بقدرتكِ على الشعور بالإثارة الجنسية أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "confidence_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q6",
+      "domain": "arousal",
+      "en": "Over the past 4 weeks, how often have you been satisfied with your arousal (excitement) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous été satisfaite de votre excitation pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة كنتِ راضية عن مستوى الإثارة لديكِ أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "frequency_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q7",
+      "domain": "lubrication",
+      "en": "Over the past 4 weeks, how often did you become lubricated (“wet”) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous eu une lubrification vaginale pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة حدث لديكِ ترطيب مهبلي أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "frequency_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q8",
+      "domain": "lubrication",
+      "en": "Over the past 4 weeks, how difficult was it to become lubricated (“wet”) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quel point était-il difficile d’obtenir une lubrification vaginale pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى صعوبة حدوث الترطيب المهبلي أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "difficulty_0_to_5_with_no_activity"
+    },
+    {
+      "id": "Q9",
+      "domain": "lubrication",
+      "en": "Over the past 4 weeks, how often did you maintain your lubrication (“wetness”) until completion of sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous maintenu la lubrification vaginale jusqu’à la fin de l’activité sexuelle ou des rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة استمر الترطيب المهبلي لديكِ حتى نهاية النشاط الجنسي أو الجماع؟",
+      "options_ref": "frequency_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q10",
+      "domain": "lubrication",
+      "en": "Over the past 4 weeks, how difficult was it to maintain your lubrication (“wetness”) until completion of sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, à quel point était-il difficile de maintenir la lubrification vaginale jusqu’à la fin de l’activité sexuelle ou des rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى صعوبة الحفاظ على الترطيب المهبلي حتى نهاية النشاط الجنسي أو الجماع؟",
+      "options_ref": "difficulty_0_to_5_with_no_activity"
+    },
+    {
+      "id": "Q11",
+      "domain": "orgasm",
+      "en": "Over the past 4 weeks, when you had sexual stimulation or intercourse, how often did you reach orgasm (climax)?",
+      "fr": "Au cours des 4 dernières semaines, lorsque vous aviez une stimulation sexuelle ou des rapports sexuels, à quelle fréquence avez-vous atteint l’orgasme ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، عندما حدثت لديكِ إثارة جنسية أو جماع، كم مرة وصلتِ إلى النشوة الجنسية؟",
+      "options_ref": "frequency_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q12",
+      "domain": "orgasm",
+      "en": "Over the past 4 weeks, when you had sexual stimulation or intercourse, how difficult was it for you to reach orgasm (climax)?",
+      "fr": "Au cours des 4 dernières semaines, lorsque vous aviez une stimulation sexuelle ou des rapports sexuels, à quel point était-il difficile pour vous d’atteindre l’orgasme ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، عندما حدثت لديكِ إثارة جنسية أو جماع، ما مدى صعوبة الوصول إلى النشوة الجنسية؟",
+      "options_ref": "difficulty_0_to_5_with_no_activity"
+    },
+    {
+      "id": "Q13",
+      "domain": "orgasm",
+      "en": "Over the past 4 weeks, how satisfied were you with your ability to reach orgasm (climax) during sexual activity or intercourse?",
+      "fr": "Au cours des 4 dernières semaines, dans quelle mesure avez-vous été satisfaite de votre capacité à atteindre l’orgasme pendant l’activité sexuelle ou les rapports sexuels ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى رضاكِ عن قدرتكِ على الوصول إلى النشوة الجنسية أثناء النشاط الجنسي أو الجماع؟",
+      "options_ref": "satisfaction_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q14",
+      "domain": "satisfaction",
+      "en": "Over the past 4 weeks, how satisfied have you been with the amount of emotional closeness during sexual activity between you and your partner?",
+      "fr": "Au cours des 4 dernières semaines, dans quelle mesure avez-vous été satisfaite du degré de proximité émotionnelle pendant l’activité sexuelle entre vous et votre partenaire ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى رضاكِ عن مقدار القرب العاطفي أثناء النشاط الجنسي بينكِ وبين شريككِ؟",
+      "options_ref": "satisfaction_0_to_5_reversed_with_no_activity"
+    },
+    {
+      "id": "Q15",
+      "domain": "satisfaction",
+      "en": "Over the past 4 weeks, how satisfied have you been with your sexual relationship with your partner?",
+      "fr": "Au cours des 4 dernières semaines, dans quelle mesure avez-vous été satisfaite de votre relation sexuelle avec votre partenaire ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى رضاكِ عن علاقتكِ الجنسية مع شريككِ؟",
+      "options_ref": "satisfaction_1_to_5_reversed_no_zero"
+    },
+    {
+      "id": "Q16",
+      "domain": "satisfaction",
+      "en": "Over the past 4 weeks, how satisfied have you been with your overall sexual life?",
+      "fr": "Au cours des 4 dernières semaines, dans quelle mesure avez-vous été satisfaite de votre vie sexuelle globale ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، ما مدى رضاكِ عن حياتكِ الجنسية بشكل عام؟",
+      "options_ref": "satisfaction_1_to_5_reversed_no_zero"
+    },
+    {
+      "id": "Q17",
+      "domain": "pain",
+      "en": "Over the past 4 weeks, how often did you experience discomfort or pain during vaginal penetration?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous ressenti une gêne ou une douleur pendant la pénétration vaginale ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة شعرتِ بانزعاج أو ألم أثناء الإيلاج المهبلي؟",
+      "options_ref": "pain_frequency_0_to_5"
+    },
+    {
+      "id": "Q18",
+      "domain": "pain",
+      "en": "Over the past 4 weeks, how often did you experience discomfort or pain following vaginal penetration?",
+      "fr": "Au cours des 4 dernières semaines, à quelle fréquence avez-vous ressenti une gêne ou une douleur après la pénétration vaginale ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كم مرة شعرتِ بانزعاج أو ألم بعد الإيلاج المهبلي؟",
+      "options_ref": "pain_frequency_0_to_5"
+    },
+    {
+      "id": "Q19",
+      "domain": "pain",
+      "en": "Over the past 4 weeks, how would you rate your level (degree) of discomfort or pain during or following vaginal penetration?",
+      "fr": "Au cours des 4 dernières semaines, comment évalueriez-vous le niveau ou degré de gêne ou de douleur pendant ou après la pénétration vaginale ?",
+      "ar": "خلال الأسابيع الأربعة الماضية، كيف تقيّمين مستوى أو درجة الانزعاج أو الألم أثناء الإيلاج المهبلي أو بعده؟",
+      "options_ref": "pain_level_0_to_5"
+    }
+  ],
+  "option_sets": {
+    "frequency_1_to_5_reversed_no_zero": [
+      {
+        "score": 1,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      },
+      {
+        "score": 2,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      }
+    ],
+    "level_1_to_5_reversed_no_zero": [
+      {
+        "score": 1,
+        "en": "Very high",
+        "fr": "Très élevé",
+        "ar": "مرتفع جداً"
+      },
+      {
+        "score": 2,
+        "en": "High",
+        "fr": "Élevé",
+        "ar": "مرتفع"
+      },
+      {
+        "score": 3,
+        "en": "Moderate",
+        "fr": "Modéré",
+        "ar": "متوسط"
+      },
+      {
+        "score": 4,
+        "en": "Low",
+        "fr": "Faible",
+        "ar": "منخفض"
+      },
+      {
+        "score": 5,
+        "en": "Very low or none at all",
+        "fr": "Très faible ou inexistant",
+        "ar": "منخفض جداً أو معدوم تماماً"
+      }
+    ],
+    "frequency_0_to_5_reversed_with_no_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      },
+      {
+        "score": 2,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      }
+    ],
+    "level_0_to_5_reversed_with_no_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Very high",
+        "fr": "Très élevé",
+        "ar": "مرتفع جداً"
+      },
+      {
+        "score": 2,
+        "en": "High",
+        "fr": "Élevé",
+        "ar": "مرتفع"
+      },
+      {
+        "score": 3,
+        "en": "Moderate",
+        "fr": "Modéré",
+        "ar": "متوسط"
+      },
+      {
+        "score": 4,
+        "en": "Low",
+        "fr": "Faible",
+        "ar": "منخفض"
+      },
+      {
+        "score": 5,
+        "en": "Very low or none at all",
+        "fr": "Très faible ou inexistant",
+        "ar": "منخفض جداً أو معدوم تماماً"
+      }
+    ],
+    "confidence_0_to_5_reversed_with_no_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Very high confidence",
+        "fr": "Très grande confiance",
+        "ar": "ثقة عالية جداً"
+      },
+      {
+        "score": 2,
+        "en": "High confidence",
+        "fr": "Grande confiance",
+        "ar": "ثقة عالية"
+      },
+      {
+        "score": 3,
+        "en": "Moderate confidence",
+        "fr": "Confiance modérée",
+        "ar": "ثقة متوسطة"
+      },
+      {
+        "score": 4,
+        "en": "Low confidence",
+        "fr": "Faible confiance",
+        "ar": "ثقة منخفضة"
+      },
+      {
+        "score": 5,
+        "en": "Very low or no confidence",
+        "fr": "Très faible confiance ou absence de confiance",
+        "ar": "ثقة منخفضة جداً أو معدومة"
+      }
+    ],
+    "difficulty_0_to_5_with_no_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Extremely difficult or impossible",
+        "fr": "Extrêmement difficile ou impossible",
+        "ar": "صعب للغاية أو مستحيل"
+      },
+      {
+        "score": 2,
+        "en": "Very difficult",
+        "fr": "Très difficile",
+        "ar": "صعب جداً"
+      },
+      {
+        "score": 3,
+        "en": "Difficult",
+        "fr": "Difficile",
+        "ar": "صعب"
+      },
+      {
+        "score": 4,
+        "en": "Slightly difficult",
+        "fr": "Légèrement difficile",
+        "ar": "صعب قليلاً"
+      },
+      {
+        "score": 5,
+        "en": "Not difficult",
+        "fr": "Pas difficile",
+        "ar": "غير صعب"
+      }
+    ],
+    "satisfaction_0_to_5_reversed_with_no_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Very satisfied",
+        "fr": "Très satisfaite",
+        "ar": "راضية جداً"
+      },
+      {
+        "score": 2,
+        "en": "Moderately satisfied",
+        "fr": "Modérément satisfaite",
+        "ar": "راضية بدرجة متوسطة"
+      },
+      {
+        "score": 3,
+        "en": "About equally satisfied and dissatisfied",
+        "fr": "À peu près autant satisfaite qu’insatisfaite",
+        "ar": "راضية وغير راضية بدرجة متقاربة"
+      },
+      {
+        "score": 4,
+        "en": "Moderately dissatisfied",
+        "fr": "Modérément insatisfaite",
+        "ar": "غير راضية بدرجة متوسطة"
+      },
+      {
+        "score": 5,
+        "en": "Very dissatisfied",
+        "fr": "Très insatisfaite",
+        "ar": "غير راضية جداً"
+      }
+    ],
+    "satisfaction_1_to_5_reversed_no_zero": [
+      {
+        "score": 1,
+        "en": "Very satisfied",
+        "fr": "Très satisfaite",
+        "ar": "راضية جداً"
+      },
+      {
+        "score": 2,
+        "en": "Moderately satisfied",
+        "fr": "Modérément satisfaite",
+        "ar": "راضية بدرجة متوسطة"
+      },
+      {
+        "score": 3,
+        "en": "About equally satisfied and dissatisfied",
+        "fr": "À peu près autant satisfaite qu’insatisfaite",
+        "ar": "راضية وغير راضية بدرجة متقاربة"
+      },
+      {
+        "score": 4,
+        "en": "Moderately dissatisfied",
+        "fr": "Modérément insatisfaite",
+        "ar": "غير راضية بدرجة متوسطة"
+      },
+      {
+        "score": 5,
+        "en": "Very dissatisfied",
+        "fr": "Très insatisfaite",
+        "ar": "غير راضية جداً"
+      }
+    ],
+    "pain_frequency_0_to_5": [
+      {
+        "score": 0,
+        "en": "Did not attempt intercourse",
+        "fr": "N’a pas tenté de rapport sexuel",
+        "ar": "لم تتم محاولة الجماع"
+      },
+      {
+        "score": 1,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      },
+      {
+        "score": 2,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      }
+    ],
+    "pain_level_0_to_5": [
+      {
+        "score": 0,
+        "en": "Did not attempt intercourse",
+        "fr": "N’a pas tenté de rapport sexuel",
+        "ar": "لم تتم محاولة الجماع"
+      },
+      {
+        "score": 1,
+        "en": "Very high",
+        "fr": "Très élevé",
+        "ar": "مرتفع جداً"
+      },
+      {
+        "score": 2,
+        "en": "High",
+        "fr": "Élevé",
+        "ar": "مرتفع"
+      },
+      {
+        "score": 3,
+        "en": "Moderate",
+        "fr": "Modéré",
+        "ar": "متوسط"
+      },
+      {
+        "score": 4,
+        "en": "Low",
+        "fr": "Faible",
+        "ar": "منخفض"
+      },
+      {
+        "score": 5,
+        "en": "Very low or none at all",
+        "fr": "Très faible ou inexistant",
+        "ar": "منخفض جداً أو معدوم تماماً"
+      }
+    ]
+  },
+  "scoring_system": {
+    "description": {
+      "en": "Individual domain scores are obtained by adding the scores of the items that comprise each domain and multiplying the sum by the domain factor. The full scale score is obtained by adding the six domain scores. A domain score of zero indicates that no sexual activity was reported during the past month.",
+      "fr": "Les scores de chaque domaine sont obtenus en additionnant les scores des items qui composent le domaine, puis en multipliant cette somme par le facteur du domaine. Le score total est obtenu en additionnant les six scores de domaines. Un score de domaine égal à zéro indique qu’aucune activité sexuelle n’a été rapportée au cours du mois précédent.",
+      "ar": "تُحسب درجات كل مجال بجمع درجات الأسئلة التابعة لذلك المجال ثم ضرب المجموع في معامل المجال. وتُحسب الدرجة الكلية بجمع درجات المجالات الستة. وتشير درجة المجال التي تساوي صفراً إلى عدم وجود نشاط جنسي مُبلّغ عنه خلال الشهر الماضي."
+    },
+    "domains": [
+      {
+        "domain": "desire",
+        "name": {
+          "en": "Desire",
+          "fr": "Désir",
+          "ar": "الرغبة"
+        },
+        "questions": [
+          1,
+          2
+        ],
+        "score_range": "1-5",
+        "factor": 0.6,
+        "minimum_score": 1.2,
+        "maximum_score": 6.0
+      },
+      {
+        "domain": "arousal",
+        "name": {
+          "en": "Arousal",
+          "fr": "Excitation",
+          "ar": "الإثارة"
+        },
+        "questions": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "score_range": "0-5",
+        "factor": 0.3,
+        "minimum_score": 0,
+        "maximum_score": 6.0
+      },
+      {
+        "domain": "lubrication",
+        "name": {
+          "en": "Lubrication",
+          "fr": "Lubrification",
+          "ar": "الترطيب"
+        },
+        "questions": [
+          7,
+          8,
+          9,
+          10
+        ],
+        "score_range": "0-5",
+        "factor": 0.3,
+        "minimum_score": 0,
+        "maximum_score": 6.0
+      },
+      {
+        "domain": "orgasm",
+        "name": {
+          "en": "Orgasm",
+          "fr": "Orgasme",
+          "ar": "النشوة"
+        },
+        "questions": [
+          11,
+          12,
+          13
+        ],
+        "score_range": "0-5",
+        "factor": 0.4,
+        "minimum_score": 0,
+        "maximum_score": 6.0
+      },
+      {
+        "domain": "satisfaction",
+        "name": {
+          "en": "Satisfaction",
+          "fr": "Satisfaction",
+          "ar": "الرضا"
+        },
+        "questions": [
+          14,
+          15,
+          16
+        ],
+        "score_range": "0 (or 1)-5",
+        "factor": 0.4,
+        "minimum_score": 0,
+        "maximum_score": 6.0
+      },
+      {
+        "domain": "pain",
+        "name": {
+          "en": "Pain",
+          "fr": "Douleur",
+          "ar": "الألم"
+        },
+        "questions": [
+          17,
+          18,
+          19
+        ],
+        "score_range": "0-5",
+        "factor": 0.4,
+        "minimum_score": 0,
+        "maximum_score": 6.0
+      }
+    ],
+    "full_scale_score_range": {
+      "minimum": 2.0,
+      "maximum": 36.0
+    }
+  },
+  "reference": {
+    "en": "Rosen R, Brown C, Heiman J, et al. The Female Sexual Function Index (FSFI): a multidimensional self-report instrument for the assessment of female sexual function. J Sex Marital Ther. 2000;26:191-208.",
+    "fr": "Rosen R, Brown C, Heiman J, et al. The Female Sexual Function Index (FSFI) : un instrument multidimensionnel d’auto-évaluation de la fonction sexuelle féminine. J Sex Marital Ther. 2000;26:191-208.",
+    "ar": "Rosen R, Brown C, Heiman J، وآخرون. مؤشر الوظيفة الجنسية الأنثوية (FSFI): أداة متعددة الأبعاد للتقييم الذاتي للوظيفة الجنسية الأنثوية. J Sex Marital Ther. 2000;26:191-208."
+  }
+}

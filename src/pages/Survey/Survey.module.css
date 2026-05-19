@@ -1,0 +1,146 @@
+/* ─────────────────────────────────────────
+   Survey.module.css — RTL/LTR aware
+   ───────────────────────────────────────── */
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+  min-height: 100dvh;
+  gap: var(--space-lg);
+  padding-bottom: var(--space-2xl);
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-lg) var(--space-lg) 0;
+  gap: var(--space-sm);
+}
+
+.appName {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-brand);
+  flex: 1;
+  text-align: center;
+}
+
+.iconBtn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  color: var(--color-brand);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.iconBtn:hover { box-shadow: var(--shadow-md); }
+
+/* empty placeholder keeps layout balanced */
+span.iconBtn { background: transparent; box-shadow: none; cursor: default; }
+
+.headerEnd {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-shrink: 0;
+}
+
+.skipBtn {
+  background: none;
+  border: none;
+  font-size: 13px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+  white-space: nowrap;
+}
+
+/* ── Main ── */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.questionText {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  line-height: 1.5;
+  padding: 0 var(--space-lg);
+  /* text-align follows dir automatically */
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  padding: 0 var(--space-lg);
+  line-height: 1.7;
+  margin-top: calc(-1 * var(--space-sm));
+}
+
+.optionsArea {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Footer ── */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: 0 var(--space-lg);
+}
+
+.nextBtn {
+  width: 100%;
+  padding: var(--space-md) var(--space-lg);
+  border-radius: var(--radius-full);
+  border: none;
+  background: var(--color-text-muted);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: not-allowed;
+  transition: all var(--transition-normal);
+  opacity: 0.5;
+}
+
+.nextBtn.nextActive {
+  background: var(--color-brand);
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  opacity: 1;
+}
+
+.nextBtn.nextActive:hover {
+  background: var(--color-brand-hover);
+  transform: translateY(-1px);
+}
+
+.backTextBtn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-family: var(--font-body);
+}

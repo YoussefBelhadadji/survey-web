@@ -1,0 +1,715 @@
+{
+  "source_file": "IIEF.pdf",
+  "title": {
+    "en": "International Index of Erectile Function (IIEF) - Patient Questionnaire",
+    "fr": "Indice international de la fonction érectile (IIEF) - Questionnaire patient",
+    "ar": "المؤشر الدولي للوظيفة الانتصابية (IIEF) - استبيان المريض"
+  },
+  "patient_information_fields": [
+    {
+      "field": "hospital_number",
+      "en": "Hospital number (if known)",
+      "fr": "Numéro d'hôpital (si connu)",
+      "ar": "رقم المستشفى (إن وُجد)"
+    },
+    {
+      "field": "name",
+      "en": "Name",
+      "fr": "Nom",
+      "ar": "الاسم"
+    },
+    {
+      "field": "date_of_birth",
+      "en": "Date of birth",
+      "fr": "Date de naissance",
+      "ar": "تاريخ الميلاد"
+    },
+    {
+      "field": "age",
+      "en": "Age",
+      "fr": "Âge",
+      "ar": "العمر"
+    },
+    {
+      "field": "address",
+      "en": "Address",
+      "fr": "Adresse",
+      "ar": "العنوان"
+    },
+    {
+      "field": "telephone",
+      "en": "Telephone",
+      "fr": "Téléphone",
+      "ar": "الهاتف"
+    }
+  ],
+  "introduction": {
+    "en": "These questions ask about the effects that your erection problems have had on your sex life over the last four weeks. Please try to answer the questions as honestly and as clearly as you are able. Your answers will help your doctor to choose the most effective treatment suited to your condition.",
+    "fr": "Ces questions portent sur les effets que vos problèmes d'érection ont eus sur votre vie sexuelle au cours des quatre dernières semaines. Veuillez essayer de répondre aux questions aussi honnêtement et clairement que possible. Vos réponses aideront votre médecin à choisir le traitement le plus efficace et le mieux adapté à votre situation.",
+    "ar": "تتناول هذه الأسئلة الآثار التي سبّبتها مشكلات الانتصاب لديك على حياتك الجنسية خلال الأسابيع الأربعة الماضية. يُرجى محاولة الإجابة عن الأسئلة بأكبر قدر ممكن من الصراحة والوضوح. ستساعد إجاباتك طبيبك على اختيار العلاج الأكثر فعالية والأنسب لحالتك."
+  },
+  "definitions": [
+    {
+      "term": "sexual_activity",
+      "en": "Sexual activity includes intercourse, caressing, foreplay and masturbation.",
+      "fr": "L'activité sexuelle comprend les rapports sexuels, les caresses, les préliminaires et la masturbation.",
+      "ar": "يشمل النشاط الجنسي الجماع، والمداعبة، والمقدمات الجنسية، والاستمناء."
+    },
+    {
+      "term": "sexual_intercourse",
+      "en": "Sexual intercourse is defined as sexual penetration of your partner.",
+      "fr": "Le rapport sexuel est défini comme la pénétration sexuelle du/de la partenaire.",
+      "ar": "يُعرَّف الجماع بأنه الإيلاج الجنسي للشريك/الشريكة."
+    },
+    {
+      "term": "sexual_stimulation",
+      "en": "Sexual stimulation includes situations such as foreplay, erotic pictures, etc.",
+      "fr": "La stimulation sexuelle comprend des situations telles que les préliminaires, les images érotiques, etc.",
+      "ar": "تشمل الإثارة الجنسية مواقف مثل المقدمات الجنسية، والصور المثيرة، وما إلى ذلك."
+    },
+    {
+      "term": "ejaculation",
+      "en": "Ejaculation is the ejection of semen from the penis, or the feeling of this.",
+      "fr": "L'éjaculation est l'expulsion du sperme par le pénis, ou la sensation correspondante.",
+      "ar": "القذف هو خروج السائل المنوي من القضيب، أو الإحساس بحدوث ذلك."
+    },
+    {
+      "term": "orgasm",
+      "en": "Orgasm is the fulfilment or climax following sexual stimulation or intercourse.",
+      "fr": "L'orgasme est l'aboutissement ou le point culminant qui suit une stimulation sexuelle ou un rapport sexuel.",
+      "ar": "النشوة الجنسية هي الذروة أو الإحساس بالاكتمال الذي يلي الإثارة الجنسية أو الجماع."
+    }
+  ],
+  "time_frame": {
+    "en": "Over the past 4 weeks",
+    "fr": "Au cours des 4 dernières semaines",
+    "ar": "خلال الأسابيع الأربعة الماضية"
+  },
+  "instruction": {
+    "en": "Check one box only.",
+    "fr": "Cochez une seule case.",
+    "ar": "ضع علامة في خانة واحدة فقط."
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "domain": "erectile_function",
+      "en": "How often were you able to get an erection during sexual activity?",
+      "fr": "À quelle fréquence avez-vous pu obtenir une érection pendant l'activité sexuelle ?",
+      "ar": "كم مرة استطعت الحصول على انتصاب أثناء النشاط الجنسي؟",
+      "options": [
+        {
+          "score": 0,
+          "en": "No sexual activity",
+          "fr": "Aucune activité sexuelle",
+          "ar": "لا يوجد نشاط جنسي"
+        },
+        {
+          "score": 1,
+          "en": "Almost never or never",
+          "fr": "Presque jamais ou jamais",
+          "ar": "نادراً جداً أو أبداً"
+        },
+        {
+          "score": 2,
+          "en": "A few times (less than half the time)",
+          "fr": "Quelques fois (moins de la moitié du temps)",
+          "ar": "بضع مرات (أقل من نصف الوقت)"
+        },
+        {
+          "score": 3,
+          "en": "Sometimes (about half the time)",
+          "fr": "Parfois (environ la moitié du temps)",
+          "ar": "أحياناً (حوالي نصف الوقت)"
+        },
+        {
+          "score": 4,
+          "en": "Most times (more than half the time)",
+          "fr": "La plupart du temps (plus de la moitié du temps)",
+          "ar": "في معظم المرات (أكثر من نصف الوقت)"
+        },
+        {
+          "score": 5,
+          "en": "Almost always or always",
+          "fr": "Presque toujours ou toujours",
+          "ar": "تقريباً دائماً أو دائماً"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "domain": "erectile_function",
+      "en": "When you had erections with sexual stimulation, how often were your erections hard enough for penetration?",
+      "fr": "Lorsque vous aviez des érections avec une stimulation sexuelle, à quelle fréquence étaient-elles suffisamment fermes pour permettre la pénétration ?",
+      "ar": "عندما كان يحدث لديك انتصاب مع الإثارة الجنسية، كم مرة كان الانتصاب صلباً بما يكفي للإيلاج؟",
+      "options_ref": "frequency_with_no_sexual_activity"
+    },
+    {
+      "id": "Q3",
+      "domain": "erectile_function",
+      "en": "When you attempted intercourse, how often were you able to penetrate (enter) your partner?",
+      "fr": "Lorsque vous tentiez d'avoir un rapport sexuel, à quelle fréquence pouviez-vous pénétrer votre partenaire ?",
+      "ar": "عندما حاولت الجماع، كم مرة استطعت الإيلاج؟",
+      "options_ref": "frequency_with_no_intercourse_attempt"
+    },
+    {
+      "id": "Q4",
+      "domain": "erectile_function",
+      "en": "During sexual intercourse, how often were you able to maintain your erection after you had penetrated (entered) your partner?",
+      "fr": "Pendant le rapport sexuel, à quelle fréquence avez-vous pu maintenir votre érection après avoir pénétré votre partenaire ?",
+      "ar": "أثناء الجماع، كم مرة استطعت الحفاظ على الانتصاب بعد الإيلاج؟",
+      "options_ref": "frequency_with_no_intercourse_attempt"
+    },
+    {
+      "id": "Q5",
+      "domain": "erectile_function",
+      "en": "During sexual intercourse, how difficult was it to maintain your erection to completion of intercourse?",
+      "fr": "Pendant le rapport sexuel, à quel point était-il difficile de maintenir votre érection jusqu'à la fin du rapport ?",
+      "ar": "أثناء الجماع، ما مدى صعوبة الحفاظ على الانتصاب حتى إكمال الجماع؟",
+      "options": [
+        {
+          "score": 0,
+          "en": "Did not attempt intercourse",
+          "fr": "N'a pas tenté de rapport sexuel",
+          "ar": "لم تتم محاولة الجماع"
+        },
+        {
+          "score": 1,
+          "en": "Extremely difficult",
+          "fr": "Extrêmement difficile",
+          "ar": "صعب للغاية"
+        },
+        {
+          "score": 2,
+          "en": "Very difficult",
+          "fr": "Très difficile",
+          "ar": "صعب جداً"
+        },
+        {
+          "score": 3,
+          "en": "Difficult",
+          "fr": "Difficile",
+          "ar": "صعب"
+        },
+        {
+          "score": 4,
+          "en": "Slightly difficult",
+          "fr": "Légèrement difficile",
+          "ar": "صعب قليلاً"
+        },
+        {
+          "score": 5,
+          "en": "Not difficult",
+          "fr": "Pas difficile",
+          "ar": "غير صعب"
+        }
+      ]
+    },
+    {
+      "id": "Q6",
+      "domain": "intercourse_satisfaction",
+      "en": "How many times have you attempted sexual intercourse?",
+      "fr": "Combien de fois avez-vous tenté d'avoir un rapport sexuel ?",
+      "ar": "كم مرة حاولت الجماع؟",
+      "options": [
+        {
+          "score": 0,
+          "en": "No attempts",
+          "fr": "Aucune tentative",
+          "ar": "لا توجد محاولات"
+        },
+        {
+          "score": 1,
+          "en": "One to two attempts",
+          "fr": "Une à deux tentatives",
+          "ar": "محاولة إلى محاولتين"
+        },
+        {
+          "score": 2,
+          "en": "Three to four attempts",
+          "fr": "Trois à quatre tentatives",
+          "ar": "ثلاث إلى أربع محاولات"
+        },
+        {
+          "score": 3,
+          "en": "Five to six attempts",
+          "fr": "Cinq à six tentatives",
+          "ar": "خمس إلى ست محاولات"
+        },
+        {
+          "score": 4,
+          "en": "Seven to ten attempts",
+          "fr": "Sept à dix tentatives",
+          "ar": "سبع إلى عشر محاولات"
+        },
+        {
+          "score": 5,
+          "en": "Eleven or more attempts",
+          "fr": "Onze tentatives ou plus",
+          "ar": "إحدى عشرة محاولة أو أكثر"
+        }
+      ]
+    },
+    {
+      "id": "Q7",
+      "domain": "intercourse_satisfaction",
+      "en": "When you attempted sexual intercourse, how often was it satisfactory for you?",
+      "fr": "Lorsque vous tentiez un rapport sexuel, à quelle fréquence était-il satisfaisant pour vous ?",
+      "ar": "عندما حاولت الجماع، كم مرة كان ذلك مُرضياً بالنسبة لك؟",
+      "options_ref": "frequency_with_no_intercourse_attempt"
+    },
+    {
+      "id": "Q8",
+      "domain": "intercourse_satisfaction",
+      "en": "How much have you enjoyed sexual intercourse?",
+      "fr": "Dans quelle mesure avez-vous apprécié les rapports sexuels ?",
+      "ar": "إلى أي مدى استمتعت بالجماع؟",
+      "options": [
+        {
+          "score": 0,
+          "en": "No intercourse",
+          "fr": "Aucun rapport sexuel",
+          "ar": "لا يوجد جماع"
+        },
+        {
+          "score": 1,
+          "en": "No enjoyment at all",
+          "fr": "Aucun plaisir du tout",
+          "ar": "لا يوجد استمتاع إطلاقاً"
+        },
+        {
+          "score": 2,
+          "en": "Not very enjoyable",
+          "fr": "Peu agréable",
+          "ar": "ليس ممتعاً كثيراً"
+        },
+        {
+          "score": 3,
+          "en": "Fairly enjoyable",
+          "fr": "Assez agréable",
+          "ar": "ممتع إلى حدٍّ ما"
+        },
+        {
+          "score": 4,
+          "en": "Highly enjoyable",
+          "fr": "Très agréable",
+          "ar": "ممتع جداً"
+        },
+        {
+          "score": 5,
+          "en": "Very highly enjoyable",
+          "fr": "Extrêmement agréable",
+          "ar": "ممتع للغاية"
+        }
+      ]
+    },
+    {
+      "id": "Q9",
+      "domain": "orgasmic_function",
+      "en": "When you had sexual stimulation or intercourse, how often did you ejaculate?",
+      "fr": "Lorsque vous aviez une stimulation sexuelle ou un rapport sexuel, à quelle fréquence avez-vous éjaculé ?",
+      "ar": "عندما كانت لديك إثارة جنسية أو جماع، كم مرة حدث لديك قذف؟",
+      "options": [
+        {
+          "score": 0,
+          "en": "No sexual stimulation or intercourse",
+          "fr": "Aucune stimulation sexuelle ni rapport sexuel",
+          "ar": "لا توجد إثارة جنسية ولا جماع"
+        },
+        {
+          "score": 1,
+          "en": "Almost never or never",
+          "fr": "Presque jamais ou jamais",
+          "ar": "نادراً جداً أو أبداً"
+        },
+        {
+          "score": 2,
+          "en": "A few times (less than half the time)",
+          "fr": "Quelques fois (moins de la moitié du temps)",
+          "ar": "بضع مرات (أقل من نصف الوقت)"
+        },
+        {
+          "score": 3,
+          "en": "Sometimes (about half the time)",
+          "fr": "Parfois (environ la moitié du temps)",
+          "ar": "أحياناً (حوالي نصف الوقت)"
+        },
+        {
+          "score": 4,
+          "en": "Most times (more than half the time)",
+          "fr": "La plupart du temps (plus de la moitié du temps)",
+          "ar": "في معظم المرات (أكثر من نصف الوقت)"
+        },
+        {
+          "score": 5,
+          "en": "Almost always or always",
+          "fr": "Presque toujours ou toujours",
+          "ar": "تقريباً دائماً أو دائماً"
+        }
+      ]
+    },
+    {
+      "id": "Q10",
+      "domain": "orgasmic_function",
+      "en": "When you had sexual stimulation or intercourse, how often did you have the feeling of orgasm or climax?",
+      "fr": "Lorsque vous aviez une stimulation sexuelle ou un rapport sexuel, à quelle fréquence avez-vous ressenti un orgasme ou un point culminant ?",
+      "ar": "عندما كانت لديك إثارة جنسية أو جماع، كم مرة شعرت بالنشوة الجنسية أو الذروة؟",
+      "options_ref": "frequency_1_to_5"
+    },
+    {
+      "id": "Q11",
+      "domain": "sexual_desire",
+      "en": "How often have you felt sexual desire?",
+      "fr": "À quelle fréquence avez-vous ressenti du désir sexuel ?",
+      "ar": "كم مرة شعرت بالرغبة الجنسية؟",
+      "options_ref": "frequency_1_to_5"
+    },
+    {
+      "id": "Q12",
+      "domain": "sexual_desire",
+      "en": "How would you rate your level of sexual desire?",
+      "fr": "Comment évalueriez-vous votre niveau de désir sexuel ?",
+      "ar": "كيف تقيّم مستوى رغبتك الجنسية؟",
+      "options": [
+        {
+          "score": 1,
+          "en": "Very low or none at all",
+          "fr": "Très faible ou inexistant",
+          "ar": "منخفض جداً أو معدوم تماماً"
+        },
+        {
+          "score": 2,
+          "en": "Low",
+          "fr": "Faible",
+          "ar": "منخفض"
+        },
+        {
+          "score": 3,
+          "en": "Moderate",
+          "fr": "Modéré",
+          "ar": "متوسط"
+        },
+        {
+          "score": 4,
+          "en": "High",
+          "fr": "Élevé",
+          "ar": "مرتفع"
+        },
+        {
+          "score": 5,
+          "en": "Very high",
+          "fr": "Très élevé",
+          "ar": "مرتفع جداً"
+        }
+      ]
+    },
+    {
+      "id": "Q13",
+      "domain": "overall_satisfaction",
+      "en": "How satisfied have you been with your overall sex life?",
+      "fr": "Dans quelle mesure avez-vous été satisfait de votre vie sexuelle globale ?",
+      "ar": "ما مدى رضاك عن حياتك الجنسية بشكل عام؟",
+      "options_ref": "satisfaction_1_to_5"
+    },
+    {
+      "id": "Q14",
+      "domain": "overall_satisfaction",
+      "en": "How satisfied have you been with your sexual relationship with your partner?",
+      "fr": "Dans quelle mesure avez-vous été satisfait de votre relation sexuelle avec votre partenaire ?",
+      "ar": "ما مدى رضاك عن علاقتك الجنسية مع الشريك/الشريكة؟",
+      "options_ref": "satisfaction_1_to_5"
+    },
+    {
+      "id": "Q15",
+      "domain": "erectile_function",
+      "en": "How do you rate your confidence that you could get and keep an erection?",
+      "fr": "Comment évaluez-vous votre confiance dans votre capacité à obtenir et à maintenir une érection ?",
+      "ar": "كيف تقيّم ثقتك بقدرتك على الحصول على انتصاب والحفاظ عليه؟",
+      "options": [
+        {
+          "score": 1,
+          "en": "Very low",
+          "fr": "Très faible",
+          "ar": "منخفضة جداً"
+        },
+        {
+          "score": 2,
+          "en": "Low",
+          "fr": "Faible",
+          "ar": "منخفضة"
+        },
+        {
+          "score": 3,
+          "en": "Moderate",
+          "fr": "Modérée",
+          "ar": "متوسطة"
+        },
+        {
+          "score": 4,
+          "en": "High",
+          "fr": "Élevée",
+          "ar": "مرتفعة"
+        },
+        {
+          "score": 5,
+          "en": "Very high",
+          "fr": "Très élevée",
+          "ar": "مرتفعة جداً"
+        }
+      ]
+    }
+  ],
+  "option_sets": {
+    "frequency_with_no_sexual_activity": [
+      {
+        "score": 0,
+        "en": "No sexual activity",
+        "fr": "Aucune activité sexuelle",
+        "ar": "لا يوجد نشاط جنسي"
+      },
+      {
+        "score": 1,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      },
+      {
+        "score": 2,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      }
+    ],
+    "frequency_with_no_intercourse_attempt": [
+      {
+        "score": 0,
+        "en": "Did not attempt intercourse",
+        "fr": "N'a pas tenté de rapport sexuel",
+        "ar": "لم تتم محاولة الجماع"
+      },
+      {
+        "score": 1,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      },
+      {
+        "score": 2,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      }
+    ],
+    "frequency_1_to_5": [
+      {
+        "score": 1,
+        "en": "Almost never or never",
+        "fr": "Presque jamais ou jamais",
+        "ar": "نادراً جداً أو أبداً"
+      },
+      {
+        "score": 2,
+        "en": "A few times (less than half the time)",
+        "fr": "Quelques fois (moins de la moitié du temps)",
+        "ar": "بضع مرات (أقل من نصف الوقت)"
+      },
+      {
+        "score": 3,
+        "en": "Sometimes (about half the time)",
+        "fr": "Parfois (environ la moitié du temps)",
+        "ar": "أحياناً (حوالي نصف الوقت)"
+      },
+      {
+        "score": 4,
+        "en": "Most times (more than half the time)",
+        "fr": "La plupart du temps (plus de la moitié du temps)",
+        "ar": "في معظم المرات (أكثر من نصف الوقت)"
+      },
+      {
+        "score": 5,
+        "en": "Almost always or always",
+        "fr": "Presque toujours ou toujours",
+        "ar": "تقريباً دائماً أو دائماً"
+      }
+    ],
+    "satisfaction_1_to_5": [
+      {
+        "score": 1,
+        "en": "Very dissatisfied",
+        "fr": "Très insatisfait",
+        "ar": "غير راضٍ جداً"
+      },
+      {
+        "score": 2,
+        "en": "Moderately dissatisfied",
+        "fr": "Modérément insatisfait",
+        "ar": "غير راضٍ بدرجة متوسطة"
+      },
+      {
+        "score": 3,
+        "en": "Equally satisfied and dissatisfied",
+        "fr": "Autant satisfait qu'insatisfait",
+        "ar": "راضٍ وغير راضٍ بالدرجة نفسها"
+      },
+      {
+        "score": 4,
+        "en": "Moderately satisfied",
+        "fr": "Modérément satisfait",
+        "ar": "راضٍ بدرجة متوسطة"
+      },
+      {
+        "score": 5,
+        "en": "Very satisfied",
+        "fr": "Très satisfait",
+        "ar": "راضٍ جداً"
+      }
+    ]
+  },
+  "clinical_application_guidelines": {
+    "background": {
+      "en": "The 15-question International Index of Erectile Function (IIEF) Questionnaire is a validated, multidimensional, self-administered investigation useful in the clinical assessment of erectile dysfunction and treatment outcomes in clinical trials.",
+      "fr": "Le questionnaire en 15 questions de l'Indice international de la fonction érectile (IIEF) est un outil validé, multidimensionnel et auto-administré, utile pour l'évaluation clinique de la dysfonction érectile et des résultats thérapeutiques dans les essais cliniques.",
+      "ar": "يُعد استبيان المؤشر الدولي للوظيفة الانتصابية (IIEF) المكوّن من 15 سؤالاً أداة مُعتمدة ومتعددة الأبعاد وذاتية التطبيق، مفيدة في التقييم السريري لضعف الانتصاب ونتائج العلاج في التجارب السريرية."
+    },
+    "domains": [
+      {
+        "code": "A",
+        "name_en": "Erectile Function",
+        "name_fr": "Fonction érectile",
+        "name_ar": "الوظيفة الانتصابية",
+        "questions": [
+          "Q1",
+          "Q2",
+          "Q3",
+          "Q4",
+          "Q5",
+          "Q15"
+        ],
+        "max_score": 30,
+        "controls_mean": 25.8,
+        "patients_mean": 10.7
+      },
+      {
+        "code": "B",
+        "name_en": "Orgasmic Function",
+        "name_fr": "Fonction orgasmique",
+        "name_ar": "وظيفة النشوة الجنسية",
+        "questions": [
+          "Q9",
+          "Q10"
+        ],
+        "max_score": 10,
+        "controls_mean": 9.8,
+        "patients_mean": 5.3
+      },
+      {
+        "code": "C",
+        "name_en": "Sexual Desire",
+        "name_fr": "Désir sexuel",
+        "name_ar": "الرغبة الجنسية",
+        "questions": [
+          "Q11",
+          "Q12"
+        ],
+        "max_score": 10,
+        "controls_mean": 7.0,
+        "patients_mean": 6.3
+      },
+      {
+        "code": "D",
+        "name_en": "Intercourse Satisfaction",
+        "name_fr": "Satisfaction liée aux rapports sexuels",
+        "name_ar": "الرضا عن الجماع",
+        "questions": [
+          "Q6",
+          "Q7",
+          "Q8"
+        ],
+        "max_score": 15,
+        "controls_mean": 10.6,
+        "patients_mean": 5.5
+      },
+      {
+        "code": "E",
+        "name_en": "Overall Satisfaction",
+        "name_fr": "Satisfaction globale",
+        "name_ar": "الرضا العام",
+        "questions": [
+          "Q13",
+          "Q14"
+        ],
+        "max_score": 10,
+        "controls_mean": 8.6,
+        "patients_mean": 4.4
+      }
+    ],
+    "notes": {
+      "en": "The IIEF assessment is an adjunct to, not a substitute for, a detailed sexual history and examination.",
+      "fr": "L'évaluation par l'IIEF est un complément, et non un substitut, à une anamnèse sexuelle détaillée et à un examen clinique.",
+      "ar": "يُعد تقييم IIEF أداة مساعدة، وليس بديلاً عن أخذ تاريخ جنسي مفصّل وإجراء فحص سريري."
+    },
+    "recommendations": [
+      {
+        "en": "Patients with low IIEF scores (<14 out of 30) in Domain A may be considered for a trial course of therapy with Sildenafil unless contraindicated. Specialist referral is indicated if this is unsuccessful.",
+        "fr": "Les patients ayant un score IIEF bas (<14 sur 30) dans le domaine A peuvent être envisagés pour un essai thérapeutique par sildénafil, sauf contre-indication. Une orientation vers un spécialiste est indiquée en cas d'échec.",
+        "ar": "يمكن التفكير في تجربة علاجية بالسيلدينافيل للمرضى الذين لديهم درجات منخفضة في المجال A من IIEF، أي أقل من 14 من 30، ما لم توجد موانع استعمال. ويُنصح بالإحالة إلى اختصاصي إذا لم ينجح العلاج."
+      },
+      {
+        "en": "Patients demonstrating primary orgasmic or ejaculatory dysfunction in Domain B should be referred for specialist investigation.",
+        "fr": "Les patients présentant une dysfonction orgasmique ou éjaculatoire primaire dans le domaine B doivent être orientés vers une investigation spécialisée.",
+        "ar": "ينبغي إحالة المرضى الذين يظهرون خللاً أولياً في النشوة أو القذف في المجال B إلى تقييم اختصاصي."
+      },
+      {
+        "en": "Patients with reduced sexual desire in Domain C require testing of blood levels of androgen and prolactin.",
+        "fr": "Les patients présentant une diminution du désir sexuel dans le domaine C nécessitent un dosage sanguin des androgènes et de la prolactine.",
+        "ar": "يحتاج المرضى الذين لديهم انخفاض في الرغبة الجنسية في المجال C إلى فحص مستويات الأندروجين والبرولاكتين في الدم."
+      },
+      {
+        "en": "Psychosexual counselling should be considered if low scores are recorded in Domains D and E but there is only a moderately lowered score (14 to 25) in Domain A.",
+        "fr": "Un accompagnement psychosexuel doit être envisagé si des scores faibles sont observés dans les domaines D et E, avec un score seulement modérément diminué (14 à 25) dans le domaine A.",
+        "ar": "ينبغي التفكير في الإرشاد النفسي الجنسي إذا سُجلت درجات منخفضة في المجالين D و E مع انخفاض متوسط فقط في المجال A، أي بين 14 و25."
+      }
+    ]
+  },
+  "reference": {
+    "en": "Rosen R, Riley A, Wagner G, et al. The International Index of Erectile Function (IIEF): A multidimensional scale for assessment of erectile dysfunction. Urology, 1997, 49: 822-830.",
+    "fr": "Rosen R, Riley A, Wagner G, et al. The International Index of Erectile Function (IIEF): une échelle multidimensionnelle pour l'évaluation de la dysfonction érectile. Urology, 1997, 49: 822-830.",
+    "ar": "Rosen R, Riley A, Wagner G, وآخرون. المؤشر الدولي للوظيفة الانتصابية (IIEF): مقياس متعدد الأبعاد لتقييم ضعف الانتصاب. Urology، 1997، 49: 822-830."
+  }
+}

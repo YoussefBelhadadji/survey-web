@@ -1,0 +1,130 @@
+// ─────────────────────────────────────────
+// i18n/locales/en.js  — English
+// ─────────────────────────────────────────
+export default {
+  dir: "ltr",
+  lang: "en",
+
+  ui: {
+    appName: "Intima Care",
+    skip: "Skip",
+    next: "Next",
+    back: "Back",
+    arrowNext: "→",
+    arrowBack: "←",
+  },
+
+  sections: {
+    status:       "Getting Started",
+    demographics: "General Information",
+    engaged:      "Pre-Marriage Assessment",
+    married:      "Married Couples Assessment",
+  },
+
+  questions: {
+    q_status: {
+      text: "What is your current situation?",
+      subtitle: "This helps us tailor the right questionnaire for you.",
+      options: {
+        married: "Married",
+        engaged: "Getting Married",
+      },
+    },
+    q_gender: {
+      text: "Gender",
+      subtitle: null,
+      options: { male: "Male", female: "Female" },
+    },
+    q_age: {
+      text: "Age",
+      subtitle: null,
+      options: {
+        "20_25":  "20 - 25 years",
+        "26_30":  "26 - 30 years",
+        "31_35":  "31 - 35 years",
+        "35plus": "Over 35 years",
+      },
+    },
+    q_education: {
+      text: "Education Level",
+      subtitle: "This helps us tailor content to your background.",
+      options: {
+        primary:    "Primary School",
+        secondary:  "High School",
+        university: "Bachelor's Degree",
+        masters:    "Master's Degree",
+        phd:        "Doctorate (PhD)",
+      },
+    },
+    q_work: {
+      text: "Employment Status",
+      subtitle: null,
+      options: {
+        employed:   "Employed",
+        unemployed: "Unemployed",
+        student:    "Student",
+      },
+    },
+    q_engagement_duration: {
+      text_engaged: "Engagement Duration",
+      text_married: "Marriage Duration",
+      subtitle: null,
+      options: {
+        less_6m: "Less than 6 months",
+        "6m_1y": "6 months to 1 year",
+        more_1y: "More than 1 year",
+      },
+    },
+  },
+
+  likert: {
+    engaged: {
+      options: ["Agree", "Neutral", "Disagree"],
+      questions: [
+        "I feel psychologically ready to give up some of my individual freedom for my partner and to build a family.",
+        "I can control my emotions (such as anger and anxiety) when a disagreement arises with my partner.",
+        "I have the ability to accept my partner's flaws and live with them without trying to forcibly change them.",
+        "I fully understand the psychological changes and parenting responsibilities that come with having children.",
+        "We have discussed our ambitious future goals (professional and academic) together and found significant common ground.",
+        "We fully agree on the customs, traditions, and religious and social values we will instill in our children.",
+        "I find that there is a shared dialogue and flexible ease in exchanging ideas with my partner.",
+        "We are similar in how we view managing leisure time, activities, and social relationships.",
+        "When we disagree, we focus on resolving the issue itself rather than exchanging accusations and personal attacks.",
+        "I find it easy to express my feelings and concerns openly without fear of premature judgment.",
+        "My partner shows enough flexibility to make concessions and find middle-ground solutions when needed.",
+        "We always prefer to resolve our problems and disagreements ourselves without involving family or outside parties.",
+        "Financial responsibilities (household expenses, savings, emergencies) have been clearly defined and distributed between us.",
+        "We fully agree on our consumption and spending patterns (avoiding waste and prioritizing needs).",
+        "The question of the woman's work and financial contribution to the household (or lack thereof) is settled and agreed upon.",
+        "There is mutual acceptance, harmony, and clear respect between me and my partner's family.",
+        "We have agreed to set healthy boundaries to prevent relatives from interfering in the major decisions of our private life.",
+        "We precisely agree on the nature and extent of the relationships and friendships we will maintain after marriage.",
+      ],
+    },
+    married: {
+      options: ["Always", "Sometimes", "Rarely"],
+      questions: [
+        "We regularly set aside time to talk about our daily lives and feelings, away from work and parenting pressures.",
+        "My partner listens to me with attention and mutual respect when I express my opinion or concerns.",
+        "I feel completely comfortable confiding in my partner about anything without fear of misunderstanding or blame.",
+        "We easily understand each other's non-verbal cues (body language, eye contact).",
+        "My partner avoids the silent treatment or prolonged ignoring when there is a grievance between us.",
+        "We make important family decisions together in a fair and consensual manner.",
+        "We make sure to engage in shared activities, hobbies, or interests during our free time.",
+        "I feel appreciated and continuously supported emotionally and morally by my partner in difficult situations.",
+        "We exchange daily expressions of affection and spontaneous physical contact (hugs, handshakes).",
+        "A sense of flexibility and complementarity prevails between us in distributing roles and responsibilities at home.",
+        "During a disagreement, we focus on discussing the problematic behavior itself without bringing up past mistakes.",
+        "We maintain calm and avoid shouting, hurtful remarks, or mutual accusations during heated discussions.",
+        "We are able to reach reconciliation and compromises that satisfy both parties without wanting to 'win'.",
+        "We clearly apologize to each other when one of us realizes they have wronged the other.",
+        "We make sure to keep our conflicts between us and avoid involving family or children in our problems.",
+        "I feel satisfied and in harmony with the quality and frequency of our intimate relationship.",
+        "We discuss our intimate needs and desires with frankness and maturity, without shame or guilt.",
+        "We accept physical changes or periods of reduced desire (illness, fatigue) with understanding and care.",
+        "We cooperate to overcome any emotional distance or sudden issue in our intimate relationship rather than avoiding it.",
+        "Our intimate relationship meets my expectations and clearly contributes to strengthening our emotional bond.",
+      ],
+    },
+  },
+};

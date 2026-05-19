@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  gap: var(--space-sm);
+  padding: 0 var(--space-lg);
+  justify-content: center;
+}
+
+.option {
+  flex: 1;
+  padding: var(--space-md) var(--space-sm);
+  background: var(--color-surface);
+  border: 2px solid transparent;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-normal);
+  text-align: center;
+}
+
+.option:hover {
+  box-shadow: var(--shadow-md);
+  color: var(--color-brand);
+}
+
+.option.active {
+  border-color: var(--color-brand);
+  background: var(--color-brand);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: var(--shadow-md);
+}

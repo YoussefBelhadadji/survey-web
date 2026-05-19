@@ -1,0 +1,198 @@
+/* Onboarding.module.css */
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #ECEAF6;
+  animation: page-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Top bar ── */
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px 0;
+}
+
+.appName {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-brand);
+}
+
+.skipBtn {
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--radius-xs);
+  transition: color var(--transition-fast);
+}
+
+.skipBtn:hover { color: var(--color-brand); }
+
+/* ── Slide ── */
+.slide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 28px 0;
+  gap: 28px;
+  animation: slide-enter 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes slide-enter {
+  from { opacity: 0; transform: translateX(16px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ── Visual card ── */
+.visualCard {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.60);
+  backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: var(--shadow-md);
+}
+
+/* ── Pinterest image fills the card ── */
+.slideImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Badge overlay ── */
+.badge {
+  position: absolute;
+  bottom: 16px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(8px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* RTL: badge on the left side */
+.badgeRtl { left: 16px; }
+/* LTR: badge on the right side */
+.badgeLtr { right: 16px; }
+
+.badgeIcon {
+  width: 32px;
+  height: 32px;
+  background: var(--color-brand);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.badgeText {
+  display: flex;
+  flex-direction: column;
+}
+
+.badgeLabel {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.badgeValue {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-brand);
+}
+
+/* ── Text block ── */
+.textBlock {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 8px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  line-height: 1.65;
+}
+
+/* ── Bottom ── */
+.bottom {
+  padding: 20px 28px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* ── Heart visual (slide 3) ── */
+.heartVisual {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.90);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heartCircle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #C084FC, #A855F7, #7C3AED);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+}
+
+.heartChip {
+  position: absolute;
+  background: white;
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  box-shadow: var(--shadow-sm);
+  font-size: 18px;
+}
+
+.heartChip.topRight   { top: 20px; right: 20px; }
+.heartChip.bottomLeft { bottom: 20px; left: 20px; }

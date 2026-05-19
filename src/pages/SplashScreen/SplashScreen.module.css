@@ -1,0 +1,77 @@
+/* ─────────────────────────────────────────
+   pages/SplashScreen/SplashScreen.module.css
+   ───────────────────────────────────────── */
+
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 28px 48px;
+  background: linear-gradient(160deg, #EDE9FF 0%, #F5E6F5 50%, #FFE4F0 100%);
+  animation: page-enter 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.top {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.logoCard {
+  width: 160px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(107, 78, 255, 0.15);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0);    }
+  50%       { transform: translateY(-8px); }
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--color-text-secondary);
+  line-height: 1.55;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}

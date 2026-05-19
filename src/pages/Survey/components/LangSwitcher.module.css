@@ -1,0 +1,27 @@
+.switcher {
+  display: flex;
+  gap: 2px;
+  background: var(--color-brand-soft);
+  border-radius: var(--radius-full);
+  padding: 3px;
+}
+
+.btn {
+  padding: 4px 10px;
+  border: none;
+  border-radius: var(--radius-full);
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  line-height: 1.4;
+}
+
+.btn.active {
+  background: var(--color-brand);
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
