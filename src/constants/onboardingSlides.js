@@ -24,8 +24,8 @@ export const ONBOARDING_SLIDES = [
   },
   {
     id: 3,
-    visual: "heart",
-    imageUrl: null,
+    visual: "image3",
+    imageUrl: "/image.png",
     badge: null,
     titleKey: "slide3Title",
     subtitleKey: null,
@@ -44,7 +44,7 @@ export const ONBOARDING_I18N = {
     slide1Subtitle: "اكتشف ممارسات واعية في بيئة مصممة لصحتك العاطفية والزوجية.",
     slide2Title:  "افهم علاقتك بشكل أعمق.",
     slide2Subtitle: "ابدأ رحلتك نحو الوضوح العاطفي وروابط أكثر عمقاً مع شريكك.",
-    slide3Title:  "تواصل مع خبراء يهتمون بك.",
+    slide3Title:  "استشارات الزواج والعلاقات",
   },
   fr: {
     skip:         "Passer",
@@ -56,7 +56,7 @@ export const ONBOARDING_I18N = {
     slide1Subtitle: "Explorez des pratiques conscientes dans un espace conçu pour votre bien-être émotionnel.",
     slide2Title:  "Comprenez mieux votre relation.",
     slide2Subtitle: "Commencez votre voyage vers la clarté émotionnelle et des liens plus profonds.",
-    slide3Title:  "Connectez-vous avec des experts bienveillants.",
+    slide3Title:  "Conseil en mariage et en relations",
   },
   en: {
     skip:         "Skip",
@@ -68,6 +68,6 @@ export const ONBOARDING_I18N = {
     slide1Subtitle: "Explore mindful practices in a space designed for your emotional well-being.",
     slide2Title:  "Understand your relationship better.",
     slide2Subtitle: "Begin your journey towards emotional clarity and deeper connections.",
-    slide3Title:  "Connect with experts who care.",
+    slide3Title:  "Marriage and Relationship Counselling",
   },
 };

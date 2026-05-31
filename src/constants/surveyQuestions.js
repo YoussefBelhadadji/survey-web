@@ -24,7 +24,7 @@ export const QUESTIONS = [
     section: SECTION.STATUS,
     type: Q_TYPE.SINGLE_CARD,
     optionValues: ["married", "engaged"],
-    optionIcons:  { married: "💍", engaged: "💒" },
+    optionIcons:  { married: "/wedding-rings.png", engaged: "/ring.png" },
     next: { married: "q_gender", engaged: "q_gender" },
   },
   {
@@ -32,7 +32,6 @@ export const QUESTIONS = [
     section: SECTION.DEMOGRAPHICS,
     type: Q_TYPE.SINGLE_CARD,
     optionValues: ["male", "female"],
-    optionIcons:  { male: "👨", female: "👩" },
     next: "q_age",
   },
   {
@@ -40,7 +39,6 @@ export const QUESTIONS = [
     section: SECTION.DEMOGRAPHICS,
     type: Q_TYPE.SINGLE_RADIO,
     optionValues: ["20_25", "26_30", "31_35", "35plus"],
-    optionIcons:  { "20_25": "🌱", "26_30": "🌿", "31_35": "🌳", "35plus": "🏆" },
     next: "q_education",
   },
   {
@@ -48,7 +46,6 @@ export const QUESTIONS = [
     section: SECTION.DEMOGRAPHICS,
     type: Q_TYPE.SINGLE_RADIO,
     optionValues: ["primary", "secondary", "university", "masters", "phd"],
-    optionIcons:  { primary: "📚", secondary: "🎒", university: "🎓", masters: "🏅", phd: "🌱" },
     next: "q_work",
   },
   {
@@ -56,7 +53,6 @@ export const QUESTIONS = [
     section: SECTION.DEMOGRAPHICS,
     type: Q_TYPE.SINGLE_RADIO,
     optionValues: ["employed", "unemployed", "student"],
-    optionIcons:  { employed: "💼", unemployed: "🏠", student: "📖" },
     next: "q_engagement_duration",
   },
   {
@@ -64,7 +60,6 @@ export const QUESTIONS = [
     section: SECTION.DEMOGRAPHICS,
     type: Q_TYPE.SINGLE_RADIO,
     optionValues: ["less_6m", "6m_1y", "more_1y"],
-    optionIcons:  { less_6m: "🌙", "6m_1y": "📅", more_1y: "⏳" },
     // branches on q_status answer — resolved in resolveNext()
     next: { engaged: "engaged_q1", married: "married_q1" },
   },

@@ -1,0 +1,226 @@
+.screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: #F2F0FA;
+  min-height: 100%;
+  animation: page-enter 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes page-enter {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: 52px 20px 12px;
+}
+
+.backBtn {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--color-surface-solid);
+  box-shadow: var(--shadow-sm);
+  font-size: 18px;
+  cursor: pointer;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+}
+
+.content {
+  padding: 0 20px 100px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.section {
+  background: var(--color-surface-solid);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.sectionTitle {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.photoRow {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.avatarFallback {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+  font-family: var(--font-display);
+  font-size: 24px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.photoLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin-bottom: 8px;
+}
+
+.uploadBtn {
+  padding: 8px 16px;
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+  border: none;
+  border-radius: var(--radius-xs);
+  font-family: var(--font-body);
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.fileInput {
+  display: none;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: var(--space-md);
+}
+
+.field label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+}
+
+.field input,
+.field select {
+  padding: 12px 14px;
+  border: 2px solid #E8E8F0;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 15px;
+  background: #fff;
+  transition: border-color var(--transition-fast);
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--color-brand);
+}
+
+.saveBtn {
+  width: 100%;
+  padding: 14px;
+  margin-top: var(--space-sm);
+  background: var(--color-brand);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.saveBtn:hover {
+  background: var(--color-brand-hover);
+}
+
+.langRow {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.langBtn {
+  flex: 1;
+  min-width: 90px;
+  padding: 12px;
+  border: 2px solid #E8E8F0;
+  border-radius: var(--radius-md);
+  background: #fff;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.langActive {
+  border-color: var(--color-brand);
+  background: var(--color-brand-soft);
+  color: var(--color-brand);
+}
+
+.about {
+  background: var(--color-brand);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  color: #fff;
+  box-shadow: var(--shadow-md);
+}
+
+.aboutTitle {
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: var(--space-md);
+}
+
+.aboutRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.aboutRow:last-child {
+  border-bottom: none;
+}
+
+.aboutRow span:first-child {
+  opacity: 0.75;
+  font-weight: 500;
+}
+
+.aboutRow span:last-child {
+  font-weight: 700;
+}
